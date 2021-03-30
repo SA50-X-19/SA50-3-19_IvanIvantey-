@@ -77,6 +77,9 @@ a {
       color: white;
 }
 
+.button:hover {
+      background-color: #CD6326;
+}
 .menu_items:hover {
       transform: translateY(-5px);
       transition: .6s ease;
@@ -196,7 +199,8 @@ a {
 }
 
 .block:hover {
-      transform: translateX(10px);
+      transform: scale(-1);
+      transition: 2s;
 }
 
 img { pointer-events: none; }
@@ -222,7 +226,6 @@ img { pointer-events: none; }
 
 .f {
       display: flex;
-
 }
 
 .email {
@@ -233,10 +236,7 @@ img { pointer-events: none; }
       line-height: 27px;
       color: #666666;
       background-color: #CCCCCC;
-      outline: #666666 solid 1px;
-      
-      
-      
+      border-radius: 5px 0px 0px 5px;
 }
 
 .send {
