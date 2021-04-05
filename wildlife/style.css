@@ -251,3 +251,6 @@ img { pointer-events: none; }
       color: #F7F7F7;
       background: #CD6326;
 }
+.send:active {
+      background-color: darkgrey;
+}
