@@ -20,6 +20,12 @@ body {
       display: flex;
       justify-content: space-around;
 }
+.obolocka {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      justify-content: space-around;
+}
 a {
       display: block;
       text-decoration: none;
@@ -342,5 +348,6 @@ img { pointer-events: none; }
 /*     KONCOVOCKA     */
 
 .burger {
-      
+      display: none;
+      width: 300px;
 }

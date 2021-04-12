@@ -1,3 +1,30 @@
 @media screen and (max-width: 770px){ 
-      
+      .obolocka {
+            display: none;
+      }
+      .burger {
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+            align-items: center;
+            justify-content: end;
+      }
+      .menu_list {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: end;
+      }
+      .survival_med {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            height: 400px;
+      }
+      .header_right {
+            max-width: 100%;
+            height: auto;
+      }
 }
