@@ -31,7 +31,7 @@
 
 @media screen and (max-width: 1050px){ 
       .last_articles {
-            height: 1800px;
+            height: 1900px;
       }
       .block_struktura {
             flex-direction: column;
@@ -40,10 +40,10 @@
             height: 1400px;
       }
       .Zagolovok {
-            height: 150px;
+            height: 200px;
       }
       .text_area {
-            height: 0;
+            height: 200px;
             justify-content: end;
       }
       .block {
@@ -53,5 +53,27 @@
             transform: rotate(270deg);
             transition: 1s;
       }
+      .forma {
+            width: 96%;
+            max-width: 660px;
+      }
 }
 
+@media screen and (max-width: 500px){ 
+      .text {
+            height: 100px;
+      }
+}
+@media screen and (max-width: 480px){ 
+      .f {
+            display: inline;
+      }
+      .email {
+            width: 96%;
+            border-radius: 5px 5px 0px 0px;
+      }
+      .send {
+            width: 96%;
+            border-radius: 0px 0px 5px 5px;
+      }
+}
